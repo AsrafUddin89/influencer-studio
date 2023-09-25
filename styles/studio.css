@@ -1,34 +1,76 @@
-body{
+body {
     font-family: 'EB Garamond', serif;
-font-family: 'Lato', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Work Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
-.navigation{
+/*Shared Styles*/
+.primary-description {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+
+/*Navigation Section styles*/
+.navigation {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 100px;
 }
-.nav-title{
+
+.nav-title {
     font-size: 24px;
     font-weight: 700;
     color: #3A3A3A;
 }
-.navigation > ul{
-   display: flex;
-   justify-content: space-between;
-   gap: 2rem;
-   
+
+.navigation>ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+
 }
-.navigation li{
+
+.navigation li {
     list-style: none;
-    
+
 }
-.navigation a{
+
+.navigation a {
     text-decoration: none;
     color: #3A3A3A;
     font-weight: 600;
+}
+
+/*Banner Section Styles*/
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.banner img {
+    background-image: url('../images/Circle\ design.svg');
+}
+
+.banner-title {
+    font-size: 52px;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+
+.btn-styles {
+    border-radius: 41px;
+    gap: 8px;
+    color: #FFFF;
+    background-color: #E02C6D;
+    padding: 10px 24px 10px 24px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    
 }
